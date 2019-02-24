@@ -9,7 +9,7 @@ class Perfectsquare
 	int b=input.nextInt();
 	int c=a*b;
 	int flag=0;
-	for(int i=1;i<a+b;i++)
+	for(int i=0;i<a+b;i++)
 	{
 		if(i*i==c)
 		{
